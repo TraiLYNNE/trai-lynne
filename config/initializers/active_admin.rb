@@ -6,6 +6,10 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "Trai Lynne"
 
+  config.namespace :admin do |admin|
+    admin.site_title = "Trai Lynne | Admin"
+  end
+
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
   #
@@ -282,7 +286,7 @@ ActiveAdmin.setup do |config|
   # By default, the footer shows the current Active Admin version. You can
   # override the content of the footer here.
   #
-  # config.footer = 'my custom footer text'
+  config.footer = '© Trai Lynne 2018'
 
   # == Sorting
   #
