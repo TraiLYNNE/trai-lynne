@@ -4,7 +4,7 @@ class CreatePosts < ActiveRecord::Migration[5.2]
       t.text :title
       t.text :link
       t.text :description
-      t.reference :category_id
+      t.references :category_id
 
       t.timestamps
     end
