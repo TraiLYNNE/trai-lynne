@@ -2,7 +2,7 @@ class CreateAnnouncements < ActiveRecord::Migration[5.2]
   def change
     create_table :announcements do |t|
       t.text :title
-      t.text :who
+      t.text :who, default: "Trai Lynne"
       t.text :what
       t.datetime :when
       t.text :where
