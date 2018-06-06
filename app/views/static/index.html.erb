@@ -5,8 +5,8 @@
         </div>
 
         <div class="col-lg-4">
-            <p>"<%= Quote.find(rand(Quote.all.length).floor).phrase %>"</p>
-            <p>- <%= Quote.find(rand(Quote.all.length).floor).author %></p>
+            <h3>"<%= Quote.find(rand(Quote.all.length).ceil).phrase %>"</h3>
+            <p>- <%= Quote.find(rand(Quote.all.length).ceil).author %></p>
         </div>
     </div>
 </div>
@@ -14,41 +14,49 @@
 <div class="jumbotron">
     <div class='row' id='main'>
         <div class="col-lg">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                    <h3 class="card-title">About Trai</h3>
+            <a href='/about'>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">About Trai</h2>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="col-lg">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                    <h3 class="card-title">This Girls Got Moxie</h3>
+            <a href='/resume'>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">Check My Credentials</h2>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="w-100"></div>
 
         <div class="col-lg">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                    <h3 class="card-title">Drop a Line</h3>
+            <a href='/contact'>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">Drop a Line</h2>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="col-lg">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
-                <div class="card-img-overlay">
-                    <h3 class="card-title">Bulletine Board</h3>
+            <a href='/posts'>
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="http://trailynne.org/img/hero.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h2 class="card-title">Bulletine Board</h2>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 
